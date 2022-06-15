@@ -32,7 +32,7 @@ export default {
 </script>
 
 <style lang="scss">
-span {
+.col-6 span {
   color: var(--primary-color);
   font-size: 3.375rem;
   font-weight: 600;
