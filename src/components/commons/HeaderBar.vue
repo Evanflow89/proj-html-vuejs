@@ -33,13 +33,23 @@ export default {
   justify-content: space-between;
   align-items: center;
 }
+
+.logo img {
+  width: 6.25rem;
+}
+
 ul {
   list-style: none;
   display: flex;
-  gap: 0.625rem;
+  gap: 1.25rem;
 }
 ul li a {
   text-decoration: none;
   color: var(--primary-color);
+  font-size: 0.75rem;
+}
+
+button {
+  margin-left: 20px;
 }
 </style>
