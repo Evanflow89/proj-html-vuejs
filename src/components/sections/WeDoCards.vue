@@ -3,7 +3,7 @@
     <div class="container pt-5 pb-5">
       <div class="row">
         <ul class="text-center">
-          <li class="col-lg-3">
+          <li class="col-12 col-md-6 col-lg-3">
             <img
               src="../../assets/style/images/Group-247.png"
               alt="Data Analysis"
@@ -14,7 +14,7 @@
               meridian sun strikes the upper
             </p>
           </li>
-          <li class="col-lg-3">
+          <li class="col-12 col-md-6 col-lg-3">
             <img
               src="../../assets/style/images/Group-567.png"
               alt="Data Analysis"
@@ -25,7 +25,7 @@
               meridian sun strikes the upper
             </p>
           </li>
-          <li class="col-lg-3">
+          <li class="col-12 col-md-6 col-lg-3">
             <img
               src="../../assets/style/images/Group-538.png"
               alt="Security Data"
@@ -36,7 +36,7 @@
               meridian sun strikes the upper
             </p>
           </li>
-          <li class="col-lg-3">
+          <li class="col-12 col-md-6 col-lg-3">
             <img
               src="../../assets/style/images/Group-566.png"
               alt="Security Data"

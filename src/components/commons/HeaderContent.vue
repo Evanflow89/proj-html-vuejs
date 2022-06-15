@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container header_content">
     <div class="row">
       <div class="col-6 d-flex flex-column justify-content-center">
         <span>Business Planning</span>
@@ -32,6 +32,9 @@ export default {
 </script>
 
 <style lang="scss">
+.header_content {
+  padding-bottom: 12.5rem;
+}
 .col-6 span {
   color: var(--primary-color);
   font-size: 3.375rem;
