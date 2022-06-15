@@ -1,10 +1,16 @@
 <template>
-  <header></header>
+  <header>
+    <header-bar />
+  </header>
 </template>
 
 <script>
+import HeaderBar from "../commons/HeaderBar.vue";
 export default {
   name: "BaseHeader",
+  components: {
+    HeaderBar,
+  },
 };
 </script>
 
