@@ -15,6 +15,7 @@
           <li><a href="#">Blog</a></li>
           <li><a href="#">Contact</a></li>
           <li><a href="#">Portfolio</a></li>
+          <button class="gradient-button-1">Sign In</button>
         </ul>
       </nav>
     </div>
