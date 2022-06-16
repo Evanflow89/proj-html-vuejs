@@ -4,7 +4,7 @@
       <p>Portfolio</p>
       <div class="row d-flex">
         <div class="col-6">
-          <h2><span>Latest</span> work</h2>
+          <h2><span>latest</span> work</h2>
         </div>
         <div class="col-6 d-flex justify-content-end arrows">
           <div class="arrow">&#x2190;</div>
