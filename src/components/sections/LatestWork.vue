@@ -1,6 +1,6 @@
 <template>
-  <section class="latest_work">
-    <div class="container">
+  <section>
+    <div class="container latest_work">
       <p>Portfolio</p>
       <div class="row d-flex">
         <div class="col-6">
@@ -17,21 +17,33 @@
     <div class="container pb-5">
       <div class="row latest_cards">
         <div class="col-4">
-          <div class="work_card d-flex p-4">
+          <div class="work_card first d-flex p-4">
             <div class="card_text">Basket of Flower on table</div>
             <small>Branding Strategy</small>
           </div>
         </div>
         <div class="col-4">
-          <div class="work_card d-flex p-4">
-            <div class="card_text">Basket of Flower on table</div>
-            <small>Branding Strategy</small>
+          <div class="work_card second d-flex p-4">
+            <div class="card_text">Purinky Products</div>
+            <small>Digital Experience</small>
           </div>
         </div>
         <div class="col-4">
-          <div class="work_card d-flex p-4">
-            <div class="card_text">Basket of Flower on table</div>
+          <div class="work_card third d-flex p-4">
+            <div class="card_text">Satisfy Poster</div>
             <small>Branding Strategy</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="slide d-flex justify-content-center pb-5">
+            <div class="circle red"></div>
+            <div class="circle gray"></div>
+            <div class="circle gray"></div>
+            <div class="circle gray"></div>
           </div>
         </div>
       </div>
@@ -48,6 +60,7 @@ export default {
 <style lang="scss">
 .latest_work {
   padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
   p {
     color: var(--text-var1);
   }
@@ -90,10 +103,7 @@ export default {
 
   .work_card::after {
     content: "";
-    background: url("../../assets/style/images/8wa60okr-1-790x576.jpg");
     position: absolute;
-    background-size: 100%;
-    background-repeat: no-repeat;
     width: 100%;
     height: 18.75rem;
     left: 0;
@@ -101,6 +111,34 @@ export default {
     border-radius: 50px;
     z-index: 1;
     overflow: hidden;
+  }
+  .work_card.first::after {
+    background: url("../../assets/style/images/8wa60okr-1-790x576.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .work_card.second::after {
+    background: url("../../assets/style/images/DRY-1-790x576.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .work_card.third::after {
+    background: url("../../assets/style/images/a247b00b-3621-470f-b4b8-b3ac46f25907-1-790x576.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+.slide {
+  gap: 0.625rem;
+  .circle {
+    height: 0.625rem;
+    width: 0.625rem;
+    background-color: var(--text-gray);
+    border-radius: 50%;
+    &.red {
+      background-color: var(--text-var1);
+    }
   }
 }
 </style>
