@@ -6,6 +6,7 @@
     <grow-business />
     <latest-work />
     <WePricing />
+    <latest-post />
   </main>
 </template>
 
@@ -16,6 +17,7 @@ import WedoButton from "../commons/wedoButton.vue";
 import GrowBusiness from "../sections/GrowBusiness.vue";
 import LatestWork from "../sections/LatestWork.vue";
 import WePricing from "../sections/WePricing.vue";
+import LatestPost from "../sections/LatestPost.vue";
 
 export default {
   name: "BaseMain",
@@ -26,6 +28,7 @@ export default {
     GrowBusiness,
     LatestWork,
     WePricing,
+    LatestPost,
   },
 };
 </script>,
