@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-6 d-flex justify-content-center">
           <div class="img_back">
-            <img src="../../assets/style/images/men-data.png" alt="" />
+            <img src="../../assets/style/images/men-data.png" alt="Men Data" />
           </div>
         </div>
         <div class="col-6 d-flex flex-column justify-content-center">

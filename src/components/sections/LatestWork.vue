@@ -12,11 +12,20 @@
         </div>
       </div>
     </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <latest-card />
+        </div>
+      </div>
+    </div>
   </section>
 </template>
 
 <script>
+import LatestCard from "../commons/LatestCard.vue";
 export default {
+  components: { LatestCard },
   name: "LatestWork",
 };
 </script>
