@@ -16,21 +16,23 @@ export default {
 <style lang="scss">
 .latest_cards {
   .work_card {
+    background-color: white;
     height: 18.75rem;
     width: 100%;
     border-radius: 20px;
-    background-color: yellow;
     justify-content: space-between;
     align-items: flex-end;
     position: relative;
+    box-shadow: 2px 2px 10px gray;
   }
 
   .card_text {
     font-weight: 600;
   }
 
-  .small {
+  small {
     font-weight: 300;
+    color: var(--text-gray);
   }
 
   .work_card::after {

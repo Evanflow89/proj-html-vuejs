@@ -12,10 +12,27 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-3">
-          <latest-card />
+
+    <!-- ############# CARDS ############### -->
+    <div class="container pb-5">
+      <div class="row latest_cards">
+        <div class="col-4">
+          <div class="work_card d-flex p-4">
+            <div class="card_text">Basket of Flower on table</div>
+            <small>Branding Strategy</small>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="work_card d-flex p-4">
+            <div class="card_text">Basket of Flower on table</div>
+            <small>Branding Strategy</small>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="work_card d-flex p-4">
+            <div class="card_text">Basket of Flower on table</div>
+            <small>Branding Strategy</small>
+          </div>
         </div>
       </div>
     </div>
@@ -23,9 +40,7 @@
 </template>
 
 <script>
-import LatestCard from "../commons/LatestCard.vue";
 export default {
-  components: { LatestCard },
   name: "LatestWork",
 };
 </script>
@@ -48,6 +63,44 @@ export default {
     text-align: center;
     border-radius: 50%;
     border: 1px solid var(--text-var1);
+  }
+}
+
+.latest_cards {
+  .work_card {
+    background-color: white;
+    height: 365px;
+    width: 100%;
+    border-radius: 50px;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    box-shadow: 2px 2px 5px gray;
+  }
+
+  .card_text {
+    font-weight: 700;
+    font-size: 0.875rem;
+  }
+
+  small {
+    font-weight: 300;
+    color: var(--text-gray);
+  }
+
+  .work_card::after {
+    content: "";
+    background: url("../../assets/style/images/8wa60okr-1-790x576.jpg");
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 18.75rem;
+    left: 0;
+    bottom: 4rem;
+    border-radius: 50px;
+    z-index: 1;
+    overflow: hidden;
   }
 }
 </style>
