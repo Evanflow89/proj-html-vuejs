@@ -16,8 +16,6 @@
             <div class="row d-flex">
               <div class="col-12">
                 <p>April 21, 2019 - By Paul</p>
-              </div>
-              <div class="container">
                 <div class="col-12 title">
                   <h5>Amazon Gets CCI nod to acquire 49% stake in</h5>
                 </div>
@@ -29,15 +27,52 @@
                     the meridian s...
                   </p>
                 </div>
-                <div class="col-4 d-flex justify-content-end">
+                <div
+                  class="
+                    col-4
+                    d-flex
+                    justify-content-end
+                    read
+                    align-items-center
+                  "
+                >
                   <button>Read More</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-3 postcard"></div>
-        <div class="col-3 postcard"></div>
+        <div class="col-3 postcard p-4">
+          <p class="pt-4">April 21, 2019 - By Paul</p>
+          <div class="col-12 title pt-4">
+            <h5>
+              Clearing Corporation get SEBI nod to invest in overnight funds
+            </h5>
+          </div>
+          <p class="pt-5">
+            When, while the lovely valley teems with vapour around meand the
+            meridian s...
+          </p>
+          <div class="read">
+            <button class="mt-5">Read More</button>
+          </div>
+        </div>
+        <div class="col-3 postcard p-4">
+          <p class="pt-4">April 21, 2019 - By Paul</p>
+          <div class="col-12 title pt-1">
+            <h5>
+              Shabnam Dhillion, wife of RSSB chief Gurinder Dhillion, passes
+              away in London
+            </h5>
+          </div>
+          <p class="pt-5">
+            When, while the lovely valley teems with vapour around meand the
+            meridian s...
+          </p>
+          <div class="read">
+            <button class="mt-5">Read More</button>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -67,10 +102,18 @@ export default {
 .posts {
   p {
     color: var(--primary-color);
+    font-size: 0.875rem;
   }
   .row {
     justify-content: center;
     gap: 1.5625rem;
+  }
+  .title h5 {
+    color: var(--primary-color);
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
   }
 }
 .postcard_img {
@@ -83,17 +126,16 @@ export default {
   overflow: hidden;
 }
 
-.title h5 {
-  color: var(--primary-color);
-  padding: 0;
-  margin: 0;
-}
-
 .postcard {
   height: 21.875rem;
   border-radius: 30px;
   overflow: hidden;
   width: 100%;
   background-image: linear-gradient(#0b1953, #01012f);
+}
+
+.read button {
+  color: black;
+  padding: 6px 30px;
 }
 </style>
