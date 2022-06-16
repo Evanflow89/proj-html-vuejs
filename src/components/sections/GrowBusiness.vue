@@ -8,13 +8,17 @@
           </div>
         </div>
         <div class="col-6 d-flex flex-column justify-content-center">
+          <p class="p_start">Start your project</p>
           <p class="p_head">
             Grow Your Business <br />
             <span class="thin">With Our Strategy</span>
           </p>
           <p class="pb-5 p_content">
             When, while the lovely valley teems with vapour around <br />
-            meand the meridian sun strikes the upper surface.
+            meand the meridian sun strikes the upper surface of the impenetrable
+            follage<br />
+            of my trees, and but a few stray gleams steal into the inner
+            sanctuary.
           </p>
           <div class="buttons d-flex">
             <button class="gradient-button-2">Try It Now</button>
@@ -38,6 +42,10 @@ export default {
 
   .row {
     padding-top: 6.25rem;
+  }
+
+  .p_start {
+    color: var(--primary-color);
   }
 
   .p_head {
@@ -73,11 +81,12 @@ export default {
     position: absolute;
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 400px;
+    max-width: 25rem;
+    width: 100%;
     z-index: -1;
     bottom: 0;
-    top: -40px;
-    left: -50px;
+    top: -2.5rem;
+    left: -3.125rem;
   }
 }
 
