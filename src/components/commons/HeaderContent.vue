@@ -2,10 +2,12 @@
   <div class="container header_content">
     <div class="row">
       <div class="col-6 d-flex flex-column justify-content-center">
-        <span>Business Planning</span>
-        <span class="thin">Digital Technology</span>
-        <span class="pb-5">Modern Solution !</span>
-        <p class="pb-5">
+        <p class="p_head">
+          Business Planning <br />
+          <span class="thin">Digital Technology</span> <br />
+          Modern Solution !
+        </p>
+        <p class="pb-5 p_content">
           When, while the lovely valley teems with vapour around <br />
           meand the meridian sun strikes the upper surface.
         </p>
@@ -34,30 +36,31 @@ export default {
 <style lang="scss">
 .header_content {
   padding-bottom: 12.5rem;
-}
-.col-6 span {
-  color: var(--primary-color);
-  font-size: 3.375rem;
-  font-weight: 600;
-  line-height: 4.375rem;
-}
 
-.thin {
-  font-weight: 400;
-}
+  .p_head {
+    color: var(--primary-color);
+    font-size: 3.375rem;
+    line-height: 4.375rem;
+    font-weight: 600;
 
-p {
-  color: var(--parag-color);
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
+    .thin {
+      font-weight: 400;
+    }
+  }
 
-.buttons {
-  gap: 1.25rem;
-}
+  .p_content {
+    color: var(--parag-color);
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 
-.buttons button {
-  font-size: 0.875rem;
-  padding: 0.75rem 2.5rem;
+  .buttons {
+    gap: 1.25rem;
+  }
+
+  .buttons button {
+    font-size: 0.875rem;
+    padding: 0.75rem 2.5rem;
+  }
 }
 </style>

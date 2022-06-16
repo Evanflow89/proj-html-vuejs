@@ -8,10 +8,11 @@
           </div>
         </div>
         <div class="col-6 d-flex flex-column justify-content-center">
-          <span>Grow Your Business</span>
-          <span class="thin">With Our Strategy</span>
-          <span class="pb-5">Modern Solution !</span>
-          <p class="pb-5">
+          <p class="p_head">
+            Grow Your Business <br />
+            <span class="thin">With Our Strategy</span>
+          </p>
+          <p class="pb-5 p_content">
             When, while the lovely valley teems with vapour around <br />
             meand the meridian sun strikes the upper surface.
           </p>
@@ -39,7 +40,17 @@ export default {
     padding-top: 6.25rem;
   }
 
-  p {
+  .p_head {
+    color: var(--primary-color);
+    font-size: 3.375rem;
+    line-height: 4.375rem;
+    font-weight: 600;
+  }
+  .thin {
+    font-weight: 400;
+  }
+
+  .p_content {
     color: var(--parag-color);
     font-size: 1rem;
     line-height: 1.5rem;
@@ -72,16 +83,6 @@ export default {
 
 .grow_content {
   padding-bottom: 12.5rem;
-}
-.col-6 span {
-  color: var(--primary-color);
-  font-size: 3.375rem;
-  font-weight: 600;
-  line-height: 4.375rem;
-}
-
-span .thin {
-  font-weight: 400;
 }
 
 .buttons {
