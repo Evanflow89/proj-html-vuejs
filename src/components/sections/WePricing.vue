@@ -14,7 +14,7 @@
     <div class="container price_cards">
       <div class="row">
         <div class="col-4">
-          <div class="card text-center">
+          <div class="card text-center pb-4">
             <h3 class="pt-5">Designing</h3>
             <p>PROCESS</p>
             <h2 class="pt-3">40</h2>
@@ -24,10 +24,14 @@
             <p><span>Eye</span> Catching Design</p>
             <p><span>Extreme</span> Typography</p>
             <p><span>Exceptional</span> Design</p>
+            <button class="gradient-button-2 d-flex justify-content-between">
+              <div>Order Now</div>
+              <div>&#129058;</div>
+            </button>
           </div>
         </div>
         <div class="col-4">
-          <div class="card card_red text-center">
+          <div class="card card_red text-center pb-4">
             <h3 class="pt-5">Developing</h3>
             <p>PRODUCT</p>
             <h2 class="pt-3">60</h2>
@@ -37,10 +41,14 @@
             <p><span>Eye</span> Catching Design</p>
             <p><span>Extreme</span> Typography</p>
             <p><span>Exceptional</span> Design</p>
+            <button class="d-flex justify-content-between">
+              <div>Order Now</div>
+              <div>&#129058;</div>
+            </button>
           </div>
         </div>
         <div class="col-4">
-          <div class="card card_80 text-center">
+          <div class="card card_80 text-center pb-4">
             <h3 class="pt-5">Supporting</h3>
             <p>CLIENTS</p>
             <h2 class="pt-3">80</h2>
@@ -50,6 +58,10 @@
             <p><span>Eye</span> Catching Design</p>
             <p><span>Extreme</span> Typography</p>
             <p><span>Exceptional</span> Design</p>
+            <button class="gradient-button-2 d-flex justify-content-between">
+              <div>Order Now</div>
+              <div>&#129058;</div>
+            </button>
           </div>
         </div>
       </div>
@@ -79,14 +91,14 @@ export default {};
   }
 }
 .price_cards {
-  height: 25rem;
+  height: 30rem;
   .card {
     position: relative;
     width: 100%;
     height: 35rem;
     position: relative;
     bottom: -6.25rem;
-    border-radius: 2.5rem;
+    border-radius: 1.875rem;
     overflow: hidden;
     z-index: 3;
 
@@ -111,6 +123,12 @@ export default {};
     span {
       font-size: 0.875rem;
     }
+    button {
+      width: 12.5rem;
+      margin: auto;
+      padding: 10px 20px;
+      font-weight: 600;
+    }
   }
   .card::after {
     position: absolute;
@@ -131,6 +149,9 @@ export default {};
     p {
       color: var(--primary-color);
     }
+  }
+  .card_red button {
+    color: #d9597e;
   }
   .card_red::after {
     position: absolute;
