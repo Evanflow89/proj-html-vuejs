@@ -36,6 +36,52 @@
           <h6 class="text-center">Michkel Anegl</h6>
           <p class="text-center">Marketing Management</p>
         </div>
+        <div class="col-4">
+          <div class="img_people d-flex justify-content-center">
+            <img
+              src="../../assets/style/images/philipe-cavalcante-539505-unsplash-1024x1024.png"
+              alt="User Image"
+              class="mb-5"
+            />
+          </div>
+          <div class="stars text-center pb-5">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p class="pb-3 text-center">
+            When, while lovely valley teems with vapour around meand meridian
+            sun strikes the upper impenetrable follage of my trees, and but a
+            thousand.
+          </p>
+          <h6 class="text-center">Michkel Anegl</h6>
+          <p class="text-center">Marketing Management</p>
+        </div>
+        <div class="col-4">
+          <div class="img_people d-flex justify-content-center">
+            <img
+              src="../../assets/style/images/fabio-spinelli-695744-unsplash-1024x1024.png"
+              alt="User Image"
+              class="mb-5"
+            />
+          </div>
+          <div class="stars text-center pb-5">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p class="pb-3 text-center">
+            When, while lovely valley teems with vapour around meand meridian
+            sun strikes the upper impenetrable follage of my trees, and but a
+            thousand.
+          </p>
+          <h6 class="text-center">Michkel Anegl</h6>
+          <p class="text-center">Marketing Management</p>
+        </div>
       </div>
     </div>
   </section>
