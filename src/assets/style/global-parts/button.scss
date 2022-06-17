@@ -10,6 +10,14 @@ button {
     background-image: linear-gradient(to right, #03a6d2, #1e3e82)
 }
 
+.gradient-button-1:hover {
+    background-image: linear-gradient(to left, #03a6d2, #1e3e82)
+}
+
 .gradient-button-2 {
     background-image: linear-gradient(to right, #b7256e, #f8636b)
+}
+
+.gradient-button-2:hover {
+    background-image: linear-gradient(to left, #b7256e, #f8636b)
 }
