@@ -91,6 +91,14 @@ export default {
     box-shadow: 2px 2px 5px gray;
   }
 
+  .work_card:hover {
+    background-image: linear-gradient(to right, #b7256e, #f8636b);
+    color: var(--primary-color);
+    small {
+      color: #f9aab1;
+    }
+  }
+
   .card_text {
     font-weight: 700;
     font-size: 0.875rem;
@@ -107,7 +115,7 @@ export default {
     width: 100%;
     height: 18.75rem;
     left: 0;
-    bottom: 4rem;
+    bottom: 4.0625rem;
     border-radius: 50px;
     z-index: 1;
     overflow: hidden;
