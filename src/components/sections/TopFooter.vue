@@ -2,7 +2,7 @@
   <section>
     <div class="container">
       <div class="row top_footer">
-        <div class="col-3">
+        <div class="col-2">
           <div class="logo pb-5">
             <img
               src="../../assets/style/images/white-logo-2.png"
@@ -14,7 +14,7 @@
             strikes the upper impenetrable
           </p>
         </div>
-        <div class="col-3">
+        <div class="col-2">
           <h5>Quick Links</h5>
           <ul class="d-flex flex-column">
             <li><a href="#">Services</a></li>
@@ -22,7 +22,7 @@
             <li><a href="#">Blog</a></li>
           </ul>
         </div>
-        <div class="col-3">
+        <div class="col-2">
           <h5>Resources</h5>
           <ul class="d-flex flex-column align-items-end">
             <li><a href="#">Art Design</a></li>
@@ -32,7 +32,7 @@
             <li><a href="#">Web Security</a></li>
           </ul>
         </div>
-        <div class="col-3">
+        <div class="col-2">
           <h5>Contact Us</h5>
           <div class="address">
             <p>
@@ -47,6 +47,7 @@
         </div>
       </div>
     </div>
+    <hr class="footer_hr" />
   </section>
 </template>
 
@@ -58,9 +59,23 @@ export default {
 
 <style lang="scss">
 .top_footer {
+  gap: 1.875rem;
+  justify-content: space-between;
+  span {
+    color: var(--primary-color);
+  }
+
+  h5 {
+    color: var(--primary-color);
+    padding-bottom: 20px;
+  }
   ul {
     padding: 0;
     margin: 0;
+  }
+
+  ul li a {
+    color: var(--text-gray);
   }
   .logo img {
     width: 9.375rem;
@@ -68,5 +83,8 @@ export default {
   p {
     font-size: 0.875rem;
   }
+}
+.footer_hr {
+  margin: 6.25rem 0;
 }
 </style>

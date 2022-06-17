@@ -1,13 +1,15 @@
 <template>
   <footer>
     <top-footer />
+    <bottom-footer />
   </footer>
 </template>
 
 <script>
+import BottomFooter from "../sections/BottomFooter.vue";
 import TopFooter from "../sections/TopFooter.vue";
 export default {
-  components: { TopFooter },
+  components: { TopFooter, BottomFooter },
   name: "BaseFooter",
 };
 </script>
