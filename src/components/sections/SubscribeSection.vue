@@ -11,6 +11,7 @@
         </div>
         <div class="col-5 d-flex">
           <input type="email" placeholder="Enter Your Email Address" />
+          <button class="gradient-button-1">Subscribe</button>
         </div>
       </div>
     </div>
@@ -46,12 +47,18 @@ export default {
   .col-5 {
     align-items: center;
     justify-content: flex-end;
+    position: relative;
     input {
       width: 25rem;
       border-radius: 30px;
       border: none;
       padding: 15px;
       font-size: 0.875rem;
+    }
+    button {
+      position: absolute;
+      right: 20px;
+      padding: 10px 40px;
     }
   }
 }
