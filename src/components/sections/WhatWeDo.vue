@@ -1,6 +1,6 @@
 <template>
   <div class="container pt-5">
-    <div class="row text-center pb-5">
+    <div class="row text-center what_we">
       <p class="redP">Our Services</p>
       <h2 class="pb-3"><span>What</span> We Do</h2>
       <p>When, while the lovely valley teems with vapour around meand the</p>
@@ -32,5 +32,8 @@ main {
     font-size: 2.5rem;
     font-weight: 400;
   }
+}
+.what_we {
+  padding-bottom: 6.25rem;
 }
 </style>
