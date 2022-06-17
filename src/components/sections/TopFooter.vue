@@ -85,6 +85,7 @@ export default {
   }
 }
 .footer_hr {
-  margin: 6.25rem 0;
+  margin-bottom: 1.25rem;
+  margin-top: 3.125rem;
 }
 </style>
