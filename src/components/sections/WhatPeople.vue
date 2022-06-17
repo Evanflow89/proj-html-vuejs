@@ -84,11 +84,14 @@
         </div>
       </div>
     </div>
+    <sponsor-section />
   </section>
 </template>
 
 <script>
+import SponsorSection from "../commons/SponsorSection.vue";
 export default {
+  components: { SponsorSection },
   name: "WhatPeople",
 };
 </script>
@@ -109,6 +112,7 @@ export default {
   }
 }
 .people_cards {
+  padding-bottom: 9.375rem;
   .img_people img {
     width: 7.5rem;
     border: 4px solid #b6256f;
