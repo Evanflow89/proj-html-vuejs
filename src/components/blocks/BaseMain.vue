@@ -8,6 +8,7 @@
     <WePricing />
     <latest-post />
     <what-people />
+    <subscribe-section />
   </main>
 </template>
 
@@ -20,6 +21,7 @@ import LatestWork from "../sections/LatestWork.vue";
 import WePricing from "../sections/WePricing.vue";
 import LatestPost from "../sections/LatestPost.vue";
 import WhatPeople from "../sections/WhatPeople.vue";
+import SubscribeSection from "../sections/SubscribeSection.vue";
 
 export default {
   name: "BaseMain",
@@ -32,6 +34,7 @@ export default {
     WePricing,
     LatestPost,
     WhatPeople,
+    SubscribeSection,
   },
 };
 </script>,
