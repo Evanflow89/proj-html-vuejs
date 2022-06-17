@@ -9,7 +9,7 @@
       </div>
       <nav class="navsection">
         <ul>
-          <li><a href="#">Home</a></li>
+          <li class="active"><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Blog</a></li>
@@ -38,6 +38,11 @@ export default {
   width: 6.25rem;
 }
 
+.active a {
+  color: var(--text-var1);
+  font-size: 0.75rem;
+}
+
 ul {
   list-style: none;
   display: flex;
@@ -47,6 +52,10 @@ ul li a {
   text-decoration: none;
   color: var(--primary-color);
   font-size: 0.75rem;
+}
+
+ul li a:hover {
+  color: var(--text-var1);
 }
 
 button {
