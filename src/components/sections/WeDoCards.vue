@@ -89,6 +89,18 @@ export default {
     }
   }
 
+  ul li:hover::after {
+    content: "\2192";
+    color: var(--primary-color);
+    background-image: linear-gradient(to right, #b7256e, #f8636b);
+    height: 3.125rem;
+    width: 3.125rem;
+    line-height: 3.125rem;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -20px;
+  }
+
   h4 {
     font-weight: 600;
     padding-top: 6.25rem;
