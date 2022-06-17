@@ -7,6 +7,7 @@
     <latest-work />
     <WePricing />
     <latest-post />
+    <what-people />
   </main>
 </template>
 
@@ -18,6 +19,7 @@ import GrowBusiness from "../sections/GrowBusiness.vue";
 import LatestWork from "../sections/LatestWork.vue";
 import WePricing from "../sections/WePricing.vue";
 import LatestPost from "../sections/LatestPost.vue";
+import WhatPeople from "../sections/WhatPeople.vue";
 
 export default {
   name: "BaseMain",
@@ -29,6 +31,7 @@ export default {
     LatestWork,
     WePricing,
     LatestPost,
+    WhatPeople,
   },
 };
 </script>,
