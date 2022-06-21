@@ -9,12 +9,9 @@
       </div>
       <nav class="navsection">
         <ul>
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Portfolio</a></li>
+          <li v-for="(link, index) in links" :key="index">
+            <a :href="link.href">{{ link.title }}</a>
+          </li>
           <button class="gradient-button-1">Sign In</button>
         </ul>
       </nav>
@@ -25,6 +22,32 @@
 <script>
 export default {
   name: "HeaderBar",
+  data() {
+    return {
+      links: [
+        {
+          title: "About",
+          href: "#",
+        },
+        {
+          title: "Services",
+          href: "#",
+        },
+        {
+          title: "Blog",
+          href: "#",
+        },
+        {
+          title: "Contact",
+          href: "#",
+        },
+        {
+          title: "Portfolio",
+          href: "#",
+        },
+      ],
+    };
+  },
 };
 </script>
 
