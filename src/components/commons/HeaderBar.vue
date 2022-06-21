@@ -10,7 +10,11 @@
       <nav class="navsection">
         <ul>
           <li v-for="(link, index) in links" :key="index">
-            <a :href="link.href">{{ link.title }}</a>
+            <a
+              :class="link.active === true ? 'active' : false"
+              :href="link.href"
+              >{{ link.title }}</a
+            >
           </li>
           <button class="gradient-button-1">Sign In</button>
         </ul>
@@ -28,22 +32,27 @@ export default {
         {
           title: "About",
           href: "#",
+          active: true,
         },
         {
           title: "Services",
           href: "#",
+          active: false,
         },
         {
           title: "Blog",
           href: "#",
+          active: false,
         },
         {
           title: "Contact",
           href: "#",
+          active: false,
         },
         {
           title: "Portfolio",
           href: "#",
+          active: false,
         },
       ],
     };
@@ -61,7 +70,7 @@ export default {
   width: 6.25rem;
 }
 
-.active a {
+.active {
   color: var(--text-var1);
   font-size: 0.75rem;
 }
